@@ -1,0 +1,272 @@
+#title
+{
+    position: absolute;
+    padding: 5px;
+    top: 5px;
+    left: 5px;
+    color:#090623;
+}
+#miqiang {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("http://www-personal.umich.edu/~yejiayu/PoemFiles/bg.png");
+    background-origin: padding-box;
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #858585;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 0;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 0;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: 0;
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    vertical-align: baseline;
+}
+body {
+    color: #858585;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+body {
+    font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;
+    line-height: normal;
+    word-break: normal;
+}
+#postList .post-panel img {
+	transition:1s opacity ease;-moz-transition:1s opacity ease;-webkit-transition:1s opacity ease;}
+/*===========================================
+	POST LIST
+  ===========================================*/
+#postList {position:relative;width:1130px;min-height:300px;_height:300px;padding:0 0 20px 0;margin:20px auto 0;
+			-moz-transition:height 0.3s ease;
+			-webkit-transition:height 0.3s ease;
+			-o-transition:height 0.3s ease;
+			transition:height 0.3s ease;}
+#postList.loading {background:url(http://s.xnimg.cn/imgpro/bg/bg_line_loading.gif) no-repeat center bottom;}
+#postList .post {
+	position:absolute;
+	width:270px;
+	padding:0 0 20px;
+	background-color: transparent;
+	background-image: url(http://s.xnimg.cn/smallsite/images/theme/miqiang/corner-shadow.png);
+	*background-image:none;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	transition-property:opacity;
+	transition-duration:0.7s;
+	transition-timing-function:ease;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:0.7s;
+	-webkit-transition-timing-function:ease;
+	-webkit-transition-delay:0.1s;
+	-moz-transition-property:opacity;
+	-moz-transition-duration:0.7s;
+	-moz-transition-timing-function:ease;
+	-moz-transition-delay:0.1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:0.7s;
+	-o-transition-timing-function:ease;
+	-o-transition-delay:0.1s;	
+	cursor:pointer;
+	z-index: 50;
+	opacity: 0;
+}
+
+#postList .post-panel {
+	position: relative;
+	background: #ffffff;
+	width: 250px;
+	padding:10px;
+	box-shadow:-1px -1px 1px rgba(0,0,0,0.1);
+	transition-property:padding,margin;
+	transition-duration:0.2s;
+	transition-timing-function:ease;
+	-webkit-transition-property:padding,margin;
+	-webkit-transition-duration:0.2s;
+	-webkit-transition-timing-function:ease;
+	-moz-transition-property:padding,margin;
+	-moz-transition-duration:0.2s;
+	-moz-transition-timing-function:ease;
+	-o-transition-property:padding,margin;
+	-o-transition-duration:0.2s;
+	-o-transition-timing-function:ease;
+} 
+
+#postList .post-panel header {position: relative;}
+#postList .post-panel img {width:250px;display:block;}
+
+.post-text {line-height:1.5em;font-size:20px;}
+#postList .post-text img {width:34px;}
+.post-text .quote-start,
+.post-text .quote-end	{width:34px;height:30px;display:inline-block;}
+.post-text .quote-start {background:url("http://s.xnimg.cn/smallsite/images/theme/miqiang/quote-left-v1.png") no-repeat 0 0;}
+.post-text .quote-end {background:url("http://s.xnimg.cn/smallsite/images/theme/miqiang/quote-right-v1.png") no-repeat 0 0;}
+
+#postList .post-panel h3 {font-size: 12px;text-transform: uppercase;letter-spacing: 1px;font-family: Arial, Helvetica, sans-serif;color: #58676c;}
+#postList .post-panel blockquote {border-left: 4px solid #eef0f0;padding-left: 10px;}
+#postList .post-panel .more-link {font-family: Arial, Helvetica, sans-serif;color: #58676c;font-size: 10px;font-weight: bold;letter-spacing: 1px;text-transform: uppercase;}
+
+/* FEED TYPE */
+.feed-photo h4 {display:none;position:absolute;top:0;left:0;}
+.feed-video h4,.feed-video .video-desc {display:none;}
+.feed-music h4,.feed-music .music-desc {display:none;}
+.feed-audio .audio-desc {}
+
+#postList .post-music{width:100%;overflow:hidden;text-align:center}
+#postList .post-music .music-desc{display:none}
+#postList .post-music .music-play{display:block;width:250px;height:250px;overflow:hidden;}
+#postList .post-music .music-play .music-botton{display:block;position:absolute;top:50%;left:50%;width:250px;height:250px;margin:-125px 0 0 -125px;background:url('http://xnimg.cn/smallsite/images/theme/miqiang/music_cover.png') no-repeat left top;zoom:1;_background:url('http://a.xnimg.cn/smallsite/images/music-terminalie.png') no-repeat center center;z-index:10;}
+#postList .post-music .music-play:hover .music-botton{background-position:0 -250px;_background-position:center center;}
+
+
+
+/* .post-action */
+.post-action {display:none;position:absolute;bottom:0px;left:0;width:245px;height:25px;padding:0 17px;line-height:25px;z-index:5;}
+.post-action .time-meta {padding:0 0 0 20px;background:url("http://s.xnimg.cn/smallsite/images/theme/miqiang/sprite-v1.png") no-repeat 0 3px;}
+.post-panel .time-meta, .post-panel .hot-count, .post-action ul {display:none;}
+.post-action .time-meta i {display:none;}
+
+
+/*===========================================
+	POST Hover
+  ===========================================*/
+#postList .post:hover {background-image:none;}
+#postList .post:hover .post-panel{margin-left:-5px;margin-top:-5px;padding:15px;box-shadow:1px 1px 8px rgba(0,0,0,0.4)}
+#postList .post:hover .post-action i.time-s-1-1,#postList .post:hover .post-action i.time-s-1-2 {display:inline;}
+#postList .post:hover .post-photo h4 {display:none;}
+
+.post-article .post-content .content img {display:inline;}
+#postList .post-article .title { padding-bottom:5px; margin-bottom:5px; border-bottom:1px solid #eef0f0;text-align:center; font-size:20px;font-weight:normal;}
+#postList .post-article .content {line-height:1.5em;}
+
+.clearfix:before, .clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Posts
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.column { width:286px; float:left;}
+
+#postList .post-panel header {
+	position: relative;
+}
+#postList .post-panel img {
+	width:250px;
+	display:block;
+}
+#postList .post-text img {
+	width:34px;
+}
+#postList .post-panel h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #58676c;
+}
+#postList .post-panel blockquote {
+	border-left: 4px solid #eef0f0;
+	padding-left: 10px;
+}
+#postList .post-panel .more-link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #58676c;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+body.index-page section.post-full {
+	display: none;
+}
+body.permalink-page section.post-summary {
+	display: none;
+}
+.article .post-details {
+	display: none;
+}
+#main .click-block {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	background: transparent;
+}
+#postList .post-article .title {
+    border-bottom-color: #EEF0F0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
